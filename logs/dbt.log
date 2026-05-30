@@ -1,0 +1,184 @@
+[0m23:16:07.505055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012AE52EC260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012AE52EE120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012AE40FB1A0>]}
+
+
+============================== 23:16:08.126275 | 7bf33272-9631-4bc5-bfe6-85e6fe49feae ==============================
+[0m23:16:08.126275 [info ] [MainThread]: Running with dbt=1.11.11
+[0m23:16:08.129334 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\PriyankaMishra\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m23:16:09.607823 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\PriyankaMishra\.dbt
+[0m23:16:41.352582 [debug] [MainThread]: Starter project path: C:\Users\PriyankaMishra\OneDrive - Wavicle Data Solutions\Desktop\Scripts\.venv\Lib\site-packages\dbt\include\starter_project
+[0m23:16:41.510747 [info ] [MainThread]: 
+Your new dbt project "dbt_databricks" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:16:41.510747 [info ] [MainThread]: Setting up your profile.
+[0m23:17:39.653015 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m23:17:39.653015 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m23:17:39.653015 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:29:41.964865 [info ] [MainThread]: Profile dbt_databricks written to C:\Users\PriyankaMishra\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m23:29:41.970549 [debug] [MainThread]: Command `dbt init` succeeded at 23:29:41.970549 after 815.49 seconds
+[0m23:29:41.970549 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012AE5139B20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012AFF1E6A80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000012AFF1DB800>]}
+[0m23:29:41.970549 [debug] [MainThread]: Flushing usage events
+[0m23:29:44.571346 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:30:11.884749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D7DDF18B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D7FCE1E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D7F5C66F0>]}
+
+
+============================== 23:30:11.905877 | a78e354b-6dea-4498-bf5a-235afb949d61 ==============================
+[0m23:30:11.905877 [info ] [MainThread]: Running with dbt=1.11.11
+[0m23:30:11.916352 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\PriyankaMishra\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m23:30:12.154635 [info ] [MainThread]: dbt version: 1.11.11
+[0m23:30:12.154635 [info ] [MainThread]: python version: 3.12.9
+[0m23:30:12.162886 [info ] [MainThread]: python path: C:\Users\PriyankaMishra\OneDrive - Wavicle Data Solutions\Desktop\Scripts\.venv\Scripts\python.exe
+[0m23:30:12.163210 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m23:30:31.596689 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m23:30:31.596689 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m23:30:31.596689 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m23:30:41.065165 [info ] [MainThread]: Using profiles dir at C:\Users\PriyankaMishra\.dbt
+[0m23:30:41.073318 [info ] [MainThread]: Using profiles.yml file at C:\Users\PriyankaMishra\.dbt\profiles.yml
+[0m23:30:41.074957 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\PriyankaMishra\OneDrive - Wavicle Data Solutions\Desktop\Scripts\dbt_project.yml
+[0m23:30:41.074957 [info ] [MainThread]: adapter type: databricks
+[0m23:30:41.081713 [info ] [MainThread]: adapter version: 1.10.9
+[0m23:30:41.084792 [info ] [MainThread]: Configuration:
+[0m23:30:41.090013 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m23:30:41.094617 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m23:30:41.094617 [info ] [MainThread]: Required dependencies:
+[0m23:30:41.098317 [debug] [MainThread]: Executing "git --help"
+[0m23:30:41.294902 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m23:30:41.298121 [debug] [MainThread]: STDERR: "b''"
+[0m23:30:41.298121 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m23:30:41.298121 [info ] [MainThread]: Connection:
+[0m23:30:41.298121 [info ] [MainThread]:   host: dbc-3eb3924f-d6d7.cloud.databricks.com
+[0m23:30:41.305089 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/cee0ab20b5849f2a
+[0m23:30:41.306940 [info ] [MainThread]:   catalog: dbt
+[0m23:30:41.306940 [info ] [MainThread]:   schema: default
+[0m23:30:41.306940 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m23:30:44.294754 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m23:30:44.296634 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m23:30:44.296634 [debug] [MainThread]: Using databricks connection "debug"
+[0m23:30:44.296634 [debug] [MainThread]: On debug: select 1 as id
+[0m23:30:44.296634 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:30:48.297414 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f15abf-27ee-1af9-9b60-e0563a2e131e) - Created
+[0m23:31:09.464031 [debug] [MainThread]: SQL status: OK in 25.170 seconds
+[0m23:31:09.465620 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f15abf-27ee-1af9-9b60-e0563a2e131e, command-id=01f15abf-28f1-1506-9709-4bb151adc449) - Closing
+[0m23:31:09.964997 [debug] [MainThread]: On debug: Close
+[0m23:31:09.973487 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f15abf-27ee-1af9-9b60-e0563a2e131e) - Closing
+[0m23:31:10.387819 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m23:31:10.387819 [info ] [MainThread]: [31m1 check failed:[0m
+[0m23:31:10.387819 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\PriyankaMishra\OneDrive - Wavicle Data Solutions\Desktop\Scripts\dbt_project.yml> not found
+
+[0m23:31:10.390687 [debug] [MainThread]: Command `dbt debug` failed at 23:31:10.390687 after 59.39 seconds
+[0m23:31:10.390687 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D7FC6B320>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D7F5C66F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020D005B15B0>]}
+[0m23:31:10.390687 [debug] [MainThread]: Flushing usage events
+[0m23:31:13.145010 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:17:53.967071 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AEBF2844D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AEBE91B2F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AEBDFFB410>]}
+
+
+============================== 16:17:53.982977 | 5b11ecfe-0f8f-48a9-8c49-a88e610bd01e ==============================
+[0m16:17:53.982977 [info ] [MainThread]: Running with dbt=1.11.11
+[0m16:17:53.982977 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\PriyankaMishra\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt clean', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:17:53.982977 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\PriyankaMishra\OneDrive - Wavicle Data Solutions\Desktop\Scripts\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:17:53.986511 [debug] [MainThread]: Command `dbt clean` failed at 16:17:53.986511 after 0.35 seconds
+[0m16:17:53.986511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AEBDFFB410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AEC2F93B30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001AEC1C6E1B0>]}
+[0m16:17:53.986511 [debug] [MainThread]: Flushing usage events
+[0m16:17:56.391743 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:17:59.114644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001614F42F350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001614F1EB9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001614CD69CA0>]}
+
+
+============================== 16:17:59.114644 | 02b41ba2-84a2-4cb3-89ea-019e5d0d9434 ==============================
+[0m16:17:59.114644 [info ] [MainThread]: Running with dbt=1.11.11
+[0m16:17:59.114644 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\PriyankaMishra\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt deps', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:17:59.114644 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\PriyankaMishra\OneDrive - Wavicle Data Solutions\Desktop\Scripts\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:17:59.114644 [debug] [MainThread]: Command `dbt deps` failed at 16:17:59.114644 after 0.24 seconds
+[0m16:17:59.114644 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001614F0CA540>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001614F8085C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016151055CA0>]}
+[0m16:17:59.114644 [debug] [MainThread]: Flushing usage events
+[0m16:18:00.355875 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:18:03.454896 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010365581DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010363306FF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010365ABB6E0>]}
+
+
+============================== 16:18:03.462201 | 1ac1b8e7-e2e5-4d61-82c3-c63769ae9cd2 ==============================
+[0m16:18:03.462201 [info ] [MainThread]: Running with dbt=1.11.11
+[0m16:18:03.463209 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\PriyankaMishra\\.dbt', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m16:18:03.494476 [info ] [MainThread]: dbt version: 1.11.11
+[0m16:18:03.494476 [info ] [MainThread]: python version: 3.12.9
+[0m16:18:03.494476 [info ] [MainThread]: python path: C:\Users\PriyankaMishra\OneDrive - Wavicle Data Solutions\Desktop\Scripts\.venv\Scripts\python.exe
+[0m16:18:03.498949 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m16:18:04.886428 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m16:18:04.894598 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m16:18:04.894598 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m16:18:07.355643 [info ] [MainThread]: Using profiles dir at C:\Users\PriyankaMishra\.dbt
+[0m16:18:07.355643 [info ] [MainThread]: Using profiles.yml file at C:\Users\PriyankaMishra\.dbt\profiles.yml
+[0m16:18:07.355643 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\PriyankaMishra\OneDrive - Wavicle Data Solutions\Desktop\Scripts\dbt_project.yml
+[0m16:18:07.355643 [info ] [MainThread]: adapter type: databricks
+[0m16:18:07.355643 [info ] [MainThread]: adapter version: 1.10.9
+[0m16:18:07.355643 [info ] [MainThread]: Configuration:
+[0m16:18:07.355643 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:18:07.355643 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:18:07.363749 [info ] [MainThread]: Required dependencies:
+[0m16:18:07.363749 [debug] [MainThread]: Executing "git --help"
+[0m16:18:07.455355 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:18:07.455355 [debug] [MainThread]: STDERR: "b''"
+[0m16:18:07.455355 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:18:07.455355 [info ] [MainThread]: Connection:
+[0m16:18:07.455355 [info ] [MainThread]:   host: dbc-3eb3924f-d6d7.cloud.databricks.com
+[0m16:18:07.455355 [info ] [MainThread]:   http_path: /sql/1.0/warehouses/cee0ab20b5849f2a
+[0m16:18:07.455355 [info ] [MainThread]:   catalog: dbt
+[0m16:18:07.455355 [info ] [MainThread]:   schema: default
+[0m16:18:07.455355 [info ] [MainThread]: Registered adapter: databricks=1.10.9
+[0m16:18:08.264302 [debug] [MainThread]: Databricks adapter: DatabricksDBTConnection(session-id=None, name=debug) - Creating connection
+[0m16:18:08.267984 [debug] [MainThread]: Acquiring new databricks connection 'debug'
+[0m16:18:08.267984 [debug] [MainThread]: Using databricks connection "debug"
+[0m16:18:08.267984 [debug] [MainThread]: On debug: select 1 as id
+[0m16:18:08.267984 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:18:11.976098 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f15b4b-e291-1577-9d65-3307c78a9fcd) - Created
+[0m16:18:32.665603 [debug] [MainThread]: SQL status: OK in 24.400 seconds
+[0m16:18:32.667621 [debug] [MainThread]: Databricks adapter: Cursor(session-id=01f15b4b-e291-1577-9d65-3307c78a9fcd, command-id=01f15b4b-e377-160b-aefb-31c8c1a0399e) - Closing
+[0m16:18:33.163379 [debug] [MainThread]: On debug: Close
+[0m16:18:33.163379 [debug] [MainThread]: Databricks adapter: Connection(session-id=01f15b4b-e291-1577-9d65-3307c78a9fcd) - Closing
+[0m16:18:33.471672 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:18:33.473685 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:18:33.473685 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\PriyankaMishra\OneDrive - Wavicle Data Solutions\Desktop\Scripts\dbt_project.yml> not found
+
+[0m16:18:33.473685 [debug] [MainThread]: Command `dbt debug` failed at 16:18:33.473685 after 30.19 seconds
+[0m16:18:33.477242 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010363306FF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000010301CC7980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000103679D6F90>]}
+[0m16:18:33.477242 [debug] [MainThread]: Flushing usage events
+[0m16:18:35.818821 [debug] [MainThread]: An error was encountered while trying to flush usage events
+{"data":{"log_version":3,"version":"=2.0.0-preview.177"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019e7378-ed7e-7de2-9102-8ffe73d26309","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.177","name":"MainReportVersion","pid":51676,"thread":"tokio-rt-worker","ts":"2026-05-29T11:22:45.538685Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\PriyankaMishra\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019e7378-ed7e-7de2-9102-8ffe73d26309","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":51676,"thread":"tokio-rt-worker","ts":"2026-05-29T11:22:45.539017Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019e7378-ed7e-7de2-9102-8ffe73d26309","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":51676,"thread":"tokio-rt-worker","ts":"2026-05-29T11:22:45.560473Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019e7378-ed7e-7de2-9102-8ffe73d26309","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":51676,"thread":"tokio-rt-worker","ts":"2026-05-29T11:22:45.561820Z"}}
+{"data":{"completed_at":"2026-05-29T11:22:46.399568Z","elapsed":0.868280291557312,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019e7378-ed7e-7de2-9102-8ffe73d26309","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [868ms]","name":"CommandCompleted","pid":51676,"thread":"tokio-rt-worker","ts":"2026-05-29T11:22:46.404324Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.177"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019e795e-6a37-74f0-a894-c88f51fb0277","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.177","name":"MainReportVersion","pid":48872,"thread":"tokio-rt-worker","ts":"2026-05-30T14:51:31.265713Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\PriyankaMishra\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019e795e-6a37-74f0-a894-c88f51fb0277","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":48872,"thread":"tokio-rt-worker","ts":"2026-05-30T14:51:31.265745Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019e795e-6a37-74f0-a894-c88f51fb0277","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":48872,"thread":"tokio-rt-worker","ts":"2026-05-30T14:51:31.279188Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019e795e-6a37-74f0-a894-c88f51fb0277","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":48872,"thread":"tokio-rt-worker","ts":"2026-05-30T14:51:31.282435Z"}}
+{"data":{"completed_at":"2026-05-30T14:51:33.199245Z","elapsed":1.9384129047393799,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019e795e-6a37-74f0-a894-c88f51fb0277","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [1.9s]","name":"CommandCompleted","pid":48872,"thread":"tokio-rt-worker","ts":"2026-05-30T14:51:33.200965Z"}}
+{"data":{"log_version":3,"version":"=2.0.0-preview.177"},"info":{"category":"","code":"A001","extra":{},"invocation_id":"019e796c-7996-7d93-86b4-26e1e72fec65","level":"info","msg":"Running with dbt-fusion=2.0.0-preview.177","name":"MainReportVersion","pid":61956,"thread":"tokio-rt-worker","ts":"2026-05-30T15:06:52.700591Z"}}
+{"data":{"args":{"debug":"false","invocation_command":"C:\\Users\\PriyankaMishra\\.local\\bin\\dbt.exe license info --json --log-format json","log_format":"json","quiet":"false","write_json":"true"}},"info":{"category":"","code":"A002","extra":{},"invocation_id":"019e796c-7996-7d93-86b4-26e1e72fec65","level":"debug","msg":"running dbt-fusion with arguments {\"command\":\"license\",\"vars\":\"{}\",\"limit\":\"10\",\"debug\":false,\"log_format\":\"json\",\"quiet\":false,\"write_json\":true,\"write_catalog\":false}","name":"MainReportArgs","pid":61956,"thread":"tokio-rt-worker","ts":"2026-05-30T15:06:52.700611Z"}}
+{"data":{},"info":{"category":"","code":"","extra":{},"invocation_id":"019e796c-7996-7d93-86b4-26e1e72fec65","level":"debug","msg":"No active cloud project configured, skipping remote license","name":"Generic","pid":61956,"thread":"tokio-rt-worker","ts":"2026-05-30T15:06:52.707978Z"}}
+{"data":{"columns":[],"is_inline":true,"node_name":"license_info","output_format":"json","preview":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","unique_id":"license.info"},"info":{"category":"","code":"Q041","extra":{},"invocation_id":"019e796c-7996-7d93-86b4-26e1e72fec65","level":"info","msg":"{\n  \"status\": \"not_found\",\n  \"licensing_enabled\": true\n}","name":"ShowNode","pid":61956,"thread":"tokio-rt-worker","ts":"2026-05-30T15:06:52.708777Z"}}
+{"data":{"completed_at":"2026-05-30T15:06:53.469312Z","elapsed":0.7688883543014526,"success":true},"info":{"category":"","code":"Q039","extra":{},"invocation_id":"019e796c-7996-7d93-86b4-26e1e72fec65","level":"info","msg":"\n==================== Execution Summary =====================\nFinished 'license' successfully [768ms]","name":"CommandCompleted","pid":61956,"thread":"tokio-rt-worker","ts":"2026-05-30T15:06:53.469459Z"}}
