@@ -10,3 +10,4 @@ sources:
       - name: dim_product
       - name: dim_customer
       - name: dim_date
+      - name: items
